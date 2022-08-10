@@ -1,6 +1,6 @@
 .plantilla {
     display: grid;
-    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
 }
 
 .jumbotron {
@@ -9,6 +9,26 @@
  
 }
 
+
 .logo{
     width: 150px;
+}
+
+.seccionnuestrosclientes{
+    background-color: rgb(33,103,175);
+}
+.nuestrosclientes{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logosclientes{
+    width: 120px;
+}
+
+.contactenos
+{
+    background-color: rgb(0,58,116);
 }
