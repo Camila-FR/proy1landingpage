@@ -9,6 +9,10 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/7ebf5099c2.js" crossorigin="anonymous"></script>
+    <!--Estilos-->
     <link rel="stylesheet" href="/estilos/estilos.css">
 </head>
 
@@ -21,7 +25,7 @@
                 <div class="justify-content-end">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Quienes somos</a>
+                            <a class="nav-link" aria-current="page" href="#">Quienes somos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Catalogo</a>
@@ -41,31 +45,39 @@
         <!-- jumbotron-->
         <section class="jumbotron d-flex flex-row justify-content-center align-items-center text-white">
             <div>
-                <h1 class="text-center">Nuestra mision</h1>
-                <h2 class="text-center">Entregar soluciones integrales a nuestros clientes a lo largo de todo el ciclo
+                <h2 class="text-center">Nuestra mision</h2>
+                <h3 class="text-center">Entregar soluciones integrales a nuestros clientes a lo largo de todo el ciclo
                     de vida de sus proyectos
-                </h2>
+                </h3>
+                <p class="text-center"> <br> Construcciones y Montajes Bersa, es una empresa dedicada a la construcción,
+                    con una amplia experiencia en lo que hacemos. <br> Tenemos la mejor relación Precio - Calidad,
+                    otorgando un servicio integral a nuestros clientes.
+                </p>
             </div>
-            <div><img src="/imagenes/jumbotron.jpg" width="100%" alt="">
+            <div><img src="/imagenes/jumbotron.jpg" class="sec_mision_img" alt="">
             </div>
 
         </section>
         <!-- Nuestros valores-->
         <section class="d-block p-2 text-bg-light">
-            <h1 class="text-center">Nuestros valores</h1>
+            <h1 class="text-center m-2">Nuestros valores</h1>
             <div class="container text-center">
-                <div class="row">
-                    <div class="col">
-                        <h4>Compromiso Organizacional</h4>
+                <div class="row align-items-center justify-content-evenly py-1">
+                    <div class="col align-items-center">
+                        <h4 class="py-1 align-items-center">Compromiso Organizacional</h4>
+                        <i class="fa-solid fa-people-group iconos_servicios fa-7x"></i>
                     </div>
-                    <div class="col">
-                        <h4>Orientación al cliente</h4>
+                    <div class="col align-items-center">
+                        <h4 class="py-2 ">Orientación al cliente</h4>
+                        <i class="fa-solid fa-people-arrows iconos_servicios fa-6x"></i>
                     </div>
-                    <div class="col">
-                        <h4>Responsabilidad</h4>
+                    <div class="col align-items-center">
+                        <h4 class="py-2">Responsabilidad</h4>
+                        <i class="fa-solid fa-file-circle-check iconos_servicios fa-6x"></i>
                     </div>
-                    <div class="col">
-                        <h4>Excelencia</h4>
+                    <div class="col align-items-center">
+                        <h4 class="py-2">Excelencia</h4>
+                        <i class="fa-solid fa-star iconos_servicios fa-6x"></i>
                     </div>
                 </div>
             </div>
@@ -74,13 +86,13 @@
 
         <!-- catalogo de servicios-->
 
-        <section class="bg-light bg-gradient">
-            <h1 class="text-center">Nuestros servicios</h1>
-            <div class="d-flex flex-columns justify-content-center align-items-center">
-                <div class="card" style="width: 18rem;">
-                    <img src="/imagenes/vivienda.png" class="card-img-top" alt="...">
+        <section class="sec_catalogo_servicios">
+            <h1 class="text-center m-2">Nuestros servicios</h1>
+            <div class="d-flex flex-columns justify-content-center align-items-baseline m-2">
+                <div class="card m-2 shadow" style="width: 12rem;">
+                    <img src="/imagenes/vivienda.png" class="card-img-top sec" alt="...">
                     <div class="card-body">
-                        <h4 class="card-text">Vivienda</h4>
+                        <h3 class="card-text">Vivienda</h3>
                         <ul>
                             <li>Construccion de viviendas</li>
                             <li>Remodelaciones</li>
@@ -88,32 +100,54 @@
                         </ul>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card m-2 shadow" style="width: 12rem;">
                     <img src="/imagenes/oficinas.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h3 class="card-text">Oficinas</h3>
+                        <ul>
+                            <li>Remodelaciones</li>
+                            <li>Desalojos habitacionales</li>
+                            <li>Retiros de escombros</li>
+                            <li>Proyectos de climatización</li>
+                            <li>Proyectos electricos</li>
+                            <li>Proyectos de seguridad</li>
+                            <li>Paisajismo y riego</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card m-2 shadow" style="width: 12rem;">
                     <img src="/imagenes/obras_civiles.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h3 class="card-text">Obras Civiles</h3>
+                        <ul>
+                            <li>Enfierradura</li>
+                            <li>Estacionamientos</li>
+                            <li>Galpones Industriales</li>
+                            <li>Obras Civiles para postes</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card m-2 shadow" style="width: 12rem;">
                     <img src="/imagenes/estructuras metalicas.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h3 class="card-text">Estructuras Metalicas.</h3>
+                        <ul>
+                            <li>Vallas Peatonales</li>
+                            <li>Carpintería Metalica</li>
+                            <li>Estructuras de Galpones</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card m-2 shadow" style="width: 12rem;">
                     <img src="/imagenes/Inspeccion_técnica_obra.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h3 class="card-text">Otros</h3>
+                        <ul>
+                            <li>Inspección técnica de Obra</li>
+                            <li>Traslado de Materiales</li>
+                            <li>Suministro de pernos antisismicos</li>
+                            <li>Suministro de placas de anclaje</li>
+                        </ul>
                     </div>
                 </div>
 
@@ -124,8 +158,13 @@
         <!-- Nuestros clientes nos prefieren-->
         <section class="seccionnuestrosclientes">
             <h1 class="text-center text-white">Nuestros Clientes</h1>
-            <div class="nuestrosclientes">
-                <img src="/imagenes/Nuestros clientes/bioseaweed.png" class="logosclientes" alt="">
+            <div class="nuestrosclientes d-flex flex-row align-content-center justify-content-between">
+                <img src="/imagenes/Nuestros clientes/bioseaweed.png" class="logosclientes p-2" alt="">
+                <img src="/imagenes/Nuestros clientes/difor.png" class="logosclientes p-2" alt="">
+                <img src="/imagenes/Nuestros clientes/duoc.png" class="logosclientes p-2" alt="">
+                <img src="/imagenes/Nuestros clientes/lumen.png" class="logosclientes p-2" alt="">
+                <img src="/imagenes/Nuestros clientes/recimat.jpg" class="logosclientes p-2" alt="">
+                <img src="/imagenes/Nuestros clientes/san sebastian.jpg" class="logosclientes p-2" alt="">
             </div>
 
 
@@ -163,7 +202,7 @@
                             <label for="inputCity" class="form-label">City</label>
                             <input type="text" class="form-control" id="inputCity">
                         </div>
-            
+
                         <div class="col-md-2">
                             <label for="inputZip" class="form-label">Zip</label>
                             <input type="text" class="form-control" id="inputZip">
@@ -187,15 +226,40 @@
 
     </main>
 
-    <footer class="container-fluid bg-dark text-white">
-        <a href="#"><img class="logo" src="/imagenes/logo.png" alt=""></a>
-    </footer >
-    
+    <footer class="d-flex justify-content-between p-4 border-bottom bg-dark text-white">
+        <div class="d-flex flex-row align-items-center">
+            <a href="#"><img class="logo" src="/imagenes/logo.png" alt=""></a>
+            <div>
+                <a href="">
+                    <i class="bi bi-facebook icono p-3"></i>
+                </a>
+                <a href="">
+                    <i class="bi bi-instagram icono p-3"></i>
+                </a>
+                <a href="">
+                    <i class="bi bi-linkedin icono p-3"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="d-flex flex-row  align-items-center">
+
+            <a class="nav-link mb-2 mb-lg-0 p-3" aria-current="page" href="#">Quienes somos</a>
+
+            <a class="nav-link mb-2 mb-lg-0 p-3" href="#">Catalogo</a>
+
+            <a class="nav-link mb-2 mb-lg-0 p-3" href="#">Contactenos</a>
+
+        </div>
+
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
