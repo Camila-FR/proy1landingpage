@@ -63,3 +63,32 @@
 .icono {
     color: grey;
 }
+
+/*mediaqueries*/
+
+@media (max-width: 992px){
+    .sec_mision_img{
+        display: none;
+    }
+
+    .media-valores{
+        
+        flex-direction: column;
+        
+    }
+
+    .iconos_servicios{
+        width: 70px;
+    }
+
+    .media-catalogo{
+        display: none !important;
+    }
+    .media-servicios {
+        flex-direction: row !important;
+    }
+    .media-contactenos{
+        display: none;
+
+    }
+}
