@@ -1,3 +1,7 @@
+h1 {
+ font-size: 12 rem;
+ margin: 20px;
+}
 .plantilla {
     display: grid;
     grid-template-rows: 1fr 0,5fr 2fr 1fr 1fr;
