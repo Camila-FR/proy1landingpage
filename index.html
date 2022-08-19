@@ -18,7 +18,7 @@
 
 <body>
     <!-- navbar-->
-    <header class="header d-flex flex-column">
+    <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-black py-0">
             <div class="container-fluid px-5">
                 <a class="navbar-brand m-0" href="#"><img class="logo" src="/imagenes/logo.png" alt=""></a>
@@ -41,31 +41,32 @@
         </nav>
     </header>
 
-    <main class="plantilla">
+    <main class="plantilla w-100">
         <!-- jumbotron-->
         <section class="jumbotron d-flex flex-row justify-content-center align-items-center text-white" id="quienessomos">
-            <div class="d-flex flex-column justify-content-center">
-                <h2 class="text-center">Nuestra mision</h2>
-                <h3 class="text-center">Entregar soluciones integrales a nuestros clientes a lo largo de todo el ciclo
+            <div class="d-flex flex-column justify-content-center w-50">
+                <h3 class="text-center">Nuestra mision</h3>
+                <h4 class="text-center">Entregar soluciones integrales a nuestros clientes a lo largo de todo el ciclo
                     de vida de sus proyectos
-                </h3>
+                </h4>
                 <p class="text-center"> <br> Construcciones y Montajes Bersa, es una empresa dedicada a la construcción,
                     con una amplia experiencia en lo que hacemos. <br> Tenemos la mejor relación Precio - Calidad,
                     otorgando un servicio integral a nuestros clientes.
                 </p>
+                
             </div>
-            <div class="d-block"><img src="/imagenes/jumbotron.jpg" class="sec_mision_img" alt="">
+            <div class="d-block w-50 sec_mision_divimg"><img src="/imagenes/jumbotron.jpg" class="sec_mision_img" alt="">
             </div>
 
         </section>
         <!-- Nuestros valores-->
-        <section class="d-block p-2 text-bg-light" id="nuestrosvalores">
+        <section class="d-block text-bg-light p-2" id="nuestrosvalores">
             <h1 class="text-center">Nuestros valores</h1>
             <div class="container text-center media-valores" >
                 <div class="row align-items-center justify-content-evenly py-1 flex-wrap">
-                    <div class="col align-items-center">
+                    <div class="col d-flex flex-column align-items-center">
                         <h4 class="py-1 align-items-center">Compromiso Organizacional</h4>
-                        <i class="fa-solid fa-people-group iconos_servicios fa-7x"></i>
+                       <i class="fa-solid fa-people-group iconos_servicios fa-6x"></i>
                     </div>
                     <div class="col align-items-center">
                         <h4 class="py-2 ">Orientación al cliente</h4>
@@ -88,7 +89,7 @@
 
         <section class="sec_catalogo_servicios" id="servicios">
             <h1 class="text-center">Nuestros servicios</h1>
-            <div class="d-flex flex-columns justify-content-center align-items-baseline m-2 media-servicios">
+            <div class="d-flex flex-columns justify-content-center align-items-baseline media-servicios flex-wrap">
                 <div class="card m-2 shadow" style="width: 12rem;">
                     <img src="/imagenes/vivienda.png" class="card-img-top sec" alt="...">
                     <div class="card-body">
@@ -158,13 +159,13 @@
         <!-- Nuestros clientes nos prefieren-->
         <section class="seccionnuestrosclientes">
             <h1 class="text-center text-white">Nuestros Clientes</h1>
-            <div class="nuestrosclientes d-flex flex-row align-content-center justify-content-between flex-wrap">
-                <img src="/imagenes/Nuestros clientes/bioseaweed.png" class="logosclientes p-2" alt="">
-                <img src="/imagenes/Nuestros clientes/difor.png" class="logosclientes p-2" alt="">
-                <img src="/imagenes/Nuestros clientes/duoc.png" class="logosclientes p-2" alt="">
-                <img src="/imagenes/Nuestros clientes/lumen.png" class="logosclientes p-2" alt="">
-                <img src="/imagenes/Nuestros clientes/recimat.jpg" class="logosclientes p-2" alt="">
-                <img src="/imagenes/Nuestros clientes/san sebastian.jpg" class="logosclientes p-2" alt="">
+            <div class="d-flex flex-row justify-content-center align-content-center p-2 flex-wrap">
+                <img src="/imagenes/Nuestros clientes/bioseaweed.png" class="logosclientes" alt="">
+                <img src="/imagenes/Nuestros clientes/difor.png" class="logosclientes" alt="">
+                <img src="/imagenes/Nuestros clientes/duoc.png" class="logosclientes" alt="">
+                <img src="/imagenes/Nuestros clientes/lumen.png" class="logosclientes" alt="">
+                <img src="/imagenes/Nuestros clientes/recimat.jpg" class="logosclientes" alt="">
+                <img src="/imagenes/Nuestros clientes/san sebastian.jpg" class="logosclientes" alt="">
             </div>
 
 
@@ -212,10 +213,10 @@
 
     </main>
 
-    <footer class="d-flex justify-content-between p-4 border-bottom bg-dark text-white">
+    <footer class="d-flex flex-column flex-md-row justify-content-between p-4 border-bottom bg-dark text-white">
         <div class="d-flex flex-row align-items-center">
             <a href="#"><img class="logo" src="/imagenes/logo.png" alt=""></a>
-            <div>
+            <div class="contenedordeenlaces">
                 <a href="">
                     <i class="bi bi-facebook icono p-3"></i>
                 </a>
